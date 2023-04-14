@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://https://dall-e-backend-cq5i.onrender.com/api/v1/dalle",
+          "https://https://https://dell-e-backend.onrender.com/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -61,7 +61,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://https://dall-e-backend-cq5i.onrender.com/api/v1/post",
+          "https://https://https://dell-e-backend.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
